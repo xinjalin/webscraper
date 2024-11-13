@@ -47,4 +47,4 @@ class DataItem:
         self._period
 
     def __repr__(self):
-        return f"DataItem(name={self._name}, unit={self._unit}, value={self._value}, region={self._region}, time={self._time})"
+        return f"DataItem(name={self._name}, unit={self._unit}, value={self._value}, region={self._region}, time={self._time}, period={self._period})"

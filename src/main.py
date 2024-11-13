@@ -83,7 +83,7 @@ def main():
                 print(f"Error processing row: {row_error}")
 
         print("\n")
-        print("Complete formatted data:", formatted_data)
+        print(f"Complete formatted data: {formatted_data}")
 
         # extracting an object from formatted data example
         spot_price = next(
